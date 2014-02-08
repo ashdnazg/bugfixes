@@ -1,0 +1,52 @@
+Preface:
+
+If you want things done, you'd better stop wasting time on reddit.
+So I started making a game, and not just any game, this specific idea that's
+roamed my had for quite a long time.
+When making a game, you have to pick an engine first,
+and I knew there are several things I require:
+    1) It has to be an entity system.
+    2) All communication between systems should use events.
+    3) The systems should be modular, so new ones can be added in plugins.
+    4) C.
+    5) With scripting!
+
+    
+Starting to Work:
+
+As I didn't like the existing solutions I've found, I decided to code one myself,
+immediately starting to ponder about the design (instead of actually designing)
+and thinking about code (instead of actually coding).
+
+Surprisingly, not a single line was written.
+
+
+Actually Starting to Work:
+
+07.02 There's day before having to study for an exam. Let's start the damn project.
+
+Currently systems can register events and hooks. 
+Upcoming is the event loop.
+
+
+The game itself:
+
+I suppose that's why I'm doing all this, the idea is making a procedurally generated space game,
+where you control something (a person? a ship? a corporation? nothing?) and that's about it.
+Main point is to have as much procedurally generated content as possible, in order to create random 
+funny situations.
+Graphics for now will be ASCII and support for tiles might be add as well.
+(as graphics are planned to be a system like any other, theoretically it will be easy to change the looks of the game).
+
+
+The Rules:
+
+Hereby are some guidelines I'm planning to follow, so this project becomes possible.
+Moreover, I'm planning to write in detail whenever I break them.
+
+1. Code should be simple and readable, efficiency is no more than a pleasant byproduct.
+2. No optimizations before profiling. Working code should not be changed.
+3. Gameplay is more important than scientific accuracy.
+4. If something is neither fun nor funny, it should be removed.
+
+That's about it for now.
